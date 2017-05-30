@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calif"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mis Calificaciones" />
+        <item
+            android:id="@+id/nav_mat"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mis materias" />
+        <item
+            android:id="@+id/nav_datos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mis datos" />
+        <item
+            android:id="@+id/nav_horario"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Horario" />
+    </group>
+
+</menu>
